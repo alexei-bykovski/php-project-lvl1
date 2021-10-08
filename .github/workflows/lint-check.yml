@@ -1,0 +1,9 @@
+name: lint-check
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lint project check
+        uses: actions/checkout@v2
+        run: make lint

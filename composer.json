@@ -1,5 +1,7 @@
 {
     "name": "hexlet/code",
+    "description": "",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -11,5 +13,8 @@
             "email": "alexei.bykovski@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ]
 }

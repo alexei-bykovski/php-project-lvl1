@@ -1,3 +1,7 @@
 <?php
 
-echo 'Welcome to the Brain Games!' . PHP_EOL;
+use function Brain\Games\greeting;
+
+require dirname(__DIR__) . '/vendor/autoload.php';
+
+greeting();

@@ -22,4 +22,3 @@ function brainGcd(): array
 
     return compact('rule', 'step');
 }
-

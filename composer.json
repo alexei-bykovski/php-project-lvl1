@@ -4,11 +4,13 @@
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "Brain\\Games\\": "src/"
+            "Brain\\": "src/"
         },
         "files": [
             "src/Cli.php",
-            "src/BrainEven.php"
+            "src/Engine.php",
+            "src/Games/BrainEven.php",
+            "src/Games/BrainCalc.php"
         ]
     },
     "authors": [
@@ -22,7 +24,8 @@
     },
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.6"

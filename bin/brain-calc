@@ -4,4 +4,4 @@ use function Brain\engine;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
-engine('Brain\Games\brainEven');
+engine('Brain\Games\brainCalc');

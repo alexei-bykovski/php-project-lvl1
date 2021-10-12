@@ -10,6 +10,8 @@ brain-gcd:
 	docker-compose run --rm php bash -c "php ./bin/brain-gcd"
 brain-progression:
 	docker-compose run --rm php bash -c "php ./bin/brain-progression"
+brain-prime:
+	docker-compose run --rm php bash -c "php ./bin/brain-prime"
 validate:
 	composer validate
 lint:

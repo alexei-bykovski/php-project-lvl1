@@ -7,3 +7,5 @@
 [![asciicast](https://asciinema.org/a/Gq3EgUvUI0ZiN4TWj8ZHKlK8S.svg)](https://asciinema.org/a/Gq3EgUvUI0ZiN4TWj8ZHKlK8S)
 ### game-calc
 [![asciicast](https://asciinema.org/a/7Nd69loZ6gcUYmh6NWc06BSDN.svg)](https://asciinema.org/a/7Nd69loZ6gcUYmh6NWc06BSDN)
+### game-gcd
+[![asciicast](https://asciinema.org/a/jTAFM6WyT7W5ATsDp2FVKn14d.svg)](https://asciinema.org/a/jTAFM6WyT7W5ATsDp2FVKn14d)

@@ -27,7 +27,7 @@ function brainPrime(): array
 
     $step = function () use ($isPrime) {
         $number = generateRandomNumber();
-        $question = 1;
+        $question = $number;
         $correctAnswer = $isPrime($number) ? 'yes' : 'no';
 
         return compact('question', 'correctAnswer');

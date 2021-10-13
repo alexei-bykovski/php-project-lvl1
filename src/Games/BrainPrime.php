@@ -11,6 +11,10 @@ function brainPrime(): array
     $isPrime = function ($n) {
         $result = true;
 
+        if ($n < 2) {
+            return false;
+        }
+
         for ($i = 2; $i < $n; $i++) {
             if ($n % $i === 0) {
                 $result = false;
@@ -23,7 +27,7 @@ function brainPrime(): array
 
     $step = function () use ($isPrime) {
         $number = generateRandomNumber();
-        $question = $number;
+        $question = 1;
         $correctAnswer = $isPrime($number) ? 'yes' : 'no';
 
         return compact('question', 'correctAnswer');

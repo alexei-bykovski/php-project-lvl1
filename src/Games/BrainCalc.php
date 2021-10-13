@@ -8,7 +8,7 @@ function brainCalc(): array
 {
     $rule = 'What is the result of the expression?';
 
-    $step = function () {
+    $step = function (): array {
         $possibleOperators = ['+', '-', '*'];
         $operator = $possibleOperators[array_rand($possibleOperators)];
         $number1 = generateRandomNumber();

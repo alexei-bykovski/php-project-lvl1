@@ -8,7 +8,7 @@ function brainEven(): array
 {
     $rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-    $step = function () {
+    $step = function (): array {
         $number = generateRandomNumber();
         $question = $number;
         $correctAnswer = $number % 2 === 0 ? 'yes' : 'no';

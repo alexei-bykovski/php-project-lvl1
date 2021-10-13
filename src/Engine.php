@@ -7,7 +7,7 @@ use function cli\prompt;
 
 const QUESTIONS_COUNT = 3;
 
-function engine(callable $game)
+function engine(callable $game): void
 {
     $username = greeting();
     ['rule' => $rule, 'step' => $step] = $game();

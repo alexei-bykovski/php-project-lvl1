@@ -11,7 +11,7 @@ function brainGcd(): array
         return $b ? $gcd($b, $a % $b) : $a;
     };
 
-    $step = function () use ($gcd) {
+    $step = function () use ($gcd): array {
         $number1 = generateRandomNumber();
         $number2 = generateRandomNumber();
         $question = "{$number1} {$number2}";

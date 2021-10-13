@@ -8,7 +8,7 @@ function brainPrime(): array
 {
     $rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-    $isPrime = function ($n) {
+    $isPrime = function ($n): bool {
         $result = true;
 
         if ($n < 2) {
@@ -25,7 +25,7 @@ function brainPrime(): array
         return $result;
     };
 
-    $step = function () use ($isPrime) {
+    $step = function () use ($isPrime): array {
         $number = generateRandomNumber();
         $question = $number;
         $correctAnswer = $isPrime($number) ? 'yes' : 'no';

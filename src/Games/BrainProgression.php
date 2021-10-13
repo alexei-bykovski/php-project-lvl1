@@ -8,7 +8,7 @@ function brainProgression(): array
 {
     $rule = 'What number is missing in the progression?';
 
-    $step = function () {
+    $step = function (): array {
         $startNumber = generateRandomNumber();
         $increment = generateRandomNumber();
         $progression = [];
